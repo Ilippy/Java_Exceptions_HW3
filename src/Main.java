@@ -11,8 +11,8 @@ public class Main {
             PersonalData personalData = null;
             String[] details =
                     {"Фамилия", "Имя", "Отчество", "Дата рождения", "Номер телефона", "Пол"};
-//        details = shuffle(details);
-//        System.out.println("Введите " + Arrays.toString(details) + " через пробел");
+            details = shuffle(details);
+//            System.out.println("Введите " + Arrays.toString(details) + " через пробел");
             System.out.print("Введите");
             for (String t : details) {
                 System.out.print(" <" + t + ">");
